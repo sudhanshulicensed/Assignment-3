@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    width: 70%;
+    height: 20%;
+    margin: 20% auto;
+    background-color: #989DA1;
+    border-radius: 20px;
+    padding: 2% 2%;
+}
+
+
+.button-buy{
+    display: inline-block;
+    /* width: 40%; */
+    padding: 1% 2%;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    background: linear-gradient(#2DB7E4, #2191CA);
+    border-radius: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.button-text{
+    display: inline-block;
+    /* width: 40%; */
+    padding: 1% 2%;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    background-color: #2DB7E4;
+    background: linear-gradient(#2DB7E4, #2191CA);
+    border-radius: 25px;
+    font-size: 20px;
+    color: #fff;
+}
